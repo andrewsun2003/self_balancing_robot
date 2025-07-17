@@ -57,7 +57,6 @@ This project documents the design, development, and control of **MINHO**, a comp
 self_balancing_robot-main/
     self_balancing_robot-main/
         README.md
-        Report - Lab 1.pdf
         maze_running/
             maze_running.ino
         pid_control/
