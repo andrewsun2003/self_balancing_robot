@@ -1,7 +1,11 @@
+
 # MINHO: Self-Balancing Robot
 
 ## Overview
 This project documents the design, development, and control of **MINHO**, a compact self-balancing robot created for ENGMT380. The robot demonstrates autonomous balancing, obstacle avoidance, and maze navigation through the use of gyroscope and ultrasonic sensors, PID control, and dynamic motor actuation.
+
+## Robot Design
+![MINHO Robot](minho_robot_photo.png)
 
 ## Key Features
 - Self-balancing via gyroscopic feedback and PID control
@@ -19,13 +23,6 @@ This project documents the design, development, and control of **MINHO**, a comp
 | **Display**    | Me 7-Segment Display |
 | **Power**      | 6–12 V DC, 2–5 A total draw |
 | **Communication** | UART, I2C, SPI, USB 2.0, optional Bluetooth/Wi-Fi |
-
-## Design Highlights
-
-- **Compact form** to fit through narrow maze corridors.
-- **Low center of mass** for enhanced stability and balance.
-- **Long arms** emulate tightrope walking to increase moment of inertia and reduce overcorrection.
-- **Claw mechanism** designed for future interaction but repositioning is recommended for improved turning.
 
 ## Tasks Implemented
 
@@ -56,6 +53,7 @@ This project documents the design, development, and control of **MINHO**, a comp
 - Redesign claw to reduce interference with turning.
 
 ## Repository Structure
+```
 self_balancing_robot-main/
     self_balancing_robot-main/
         README.md
@@ -64,3 +62,8 @@ self_balancing_robot-main/
             maze_running.ino
         pid_control/
             pid_control.ino
+```
+
+## References
+- ScienceABC. (2023). *Why tightrope walkers carry a pole*. [Link](https://www.scienceabc.com/eyeopeners/why-tightrope-walkers-carry-a-polebar-during-their-performance.html)
+- Ding, Y. et al. (2012). *Modeling, Simulation and Fabrication of a Balancing Robot*. [Harvard Report](https://scholar.harvard.edu/files/jgafford/files/finalpaper_final_version.pdf)
