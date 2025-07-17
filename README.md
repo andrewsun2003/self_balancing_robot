@@ -61,6 +61,7 @@ self_balancing_robot-main/
             maze_running.ino
         pid_control/
             pid_control.ino
+        minho_robot_photo.png
 ```
 
 ## References
